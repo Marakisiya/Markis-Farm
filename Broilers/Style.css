@@ -1,0 +1,254 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    line-height: 1.5em;
+}
+
+#site_wrapper {
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, minmax(0,400px)) 1fr;
+    grid-gap:0px;
+    grid-template-rows: 200px 1076px 1100px 250px 100px;
+
+    grid-template-areas: 
+    "Header Header Header Header Header Header"
+     "Image1 Image1 Image1 Image1 Image1 Image1"
+     ". Content1 Content1 Content1 Content1 ."
+     "Footer1 Footer1 Footer2 Footer3 Footer4 Footer4"
+     "Footer Footer Footer Footer Footer Footer"
+     ;
+
+}
+
+
+.navbar {
+    grid-area:Header;
+    background-color:#3a4550;
+    overflow: hidden;
+  }
+  .navbar .logo{
+    width:300px;
+    height:150px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .navbar a {
+    float: right;
+    padding: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+  }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    font-size: 25px;  
+    color: white;
+    padding: 100px;
+    background-color: #3a4550;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px;
+  }
+  
+  .navbar a:hover, .navbar .active, .dropdown:hover .dropbtn, .dropbtn:focus{
+    background-color: #4e5c6a;
+  }
+
+
+  .dropdown-content {
+    margin:0px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 400px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4e5c6a;;
+  }
+  
+  .show {
+    display: block;
+  }
+
+
+
+.Main_Image{
+    background-image: url('Images/pexels-moon-bhuyan-2122825.png');
+    grid-area:Image1;
+    background-size: cover;
+    
+}
+
+.Content1{
+    grid-area:Content1;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: rgba(248, 136, 61, 0.05);
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+#myBtn {
+  position: fixed;
+  bottom: 350px;
+  float: right;
+  right: 10%;
+  left: 90%;
+  max-width: 120px;
+  width: 100%;
+  font-size: 25px;
+  border-color: rgb(248, 136, 61);
+  background-color: rgb(248, 136, 61);
+  padding: .5px;
+  border-radius: 0px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#myBtn:hover {
+  background-color: rgba(248, 136, 61, 0.5);
+}
+
+
+
+
+
+.Main_Footer1{
+    grid-area:Footer1;
+    margin-top: 2em;
+    background-color: #4e5c6a
+}
+
+.Main_Footer1  a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:sans-serif;
+    color:white;
+}
+.Main_Footer1 a:hover{
+    text-decoration: underline;
+
+}
+
+.Main_Footer2{
+    grid-area:Footer2;
+    margin-top: 2em;
+    background-color: #4e5c6a
+}
+.Main_Footer2  a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:sans-serif;
+    color:white;
+}
+
+.Main_Footer2 a:hover{
+    text-decoration: underline;
+
+}
+
+
+.Main_Footer3{
+    margin-top: 2em;
+    background-color: #4e5c6a;
+    grid-area:Footer3;
+}
+.Main_Footer3  a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:sans-serif;
+    color:white;
+}
+
+.Main_Footer3 a:hover{
+        text-decoration: underline;
+    
+    }
+
+.Main_Footer4{
+    margin-top: 2em;
+    background-color: #4e5c6a;
+    grid-area:Footer4;
+}
+.Main_Footer4  a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:sans-serif;
+    color:white;
+}
+
+.Main_Footer4 a:hover{
+    text-decoration: underline;
+
+}
+
+
+.Footer{
+    grid-area:Footer;
+    background-color: #3a4550
+}
+
+
+
+@media screen and (max-width:300px) {
+  #site_wrapper{
+
+    grid-template-rows: 500px 1076px 600px 300px 700px 600px 500px 100px;
+
+    grid-template-areas: 
+    "Header Header Header Header Header Header"
+     "Image1 Image1 Image1 Image1 Image1 Image1"
+     ". Content1 Content1 Content2 Content2 ."
+     ". Content11 Content11 Content22 Content22 ."
+     ". Content3 Content3 Content3 Content3 ."
+     ". Content4 Content4 Content4 Content4 ."
+     "Footer1 Footer1 Footer2 Footer3 Footer4 Footer4"
+     "Footer Footer Footer Footer Footer Footer"
+     ;
+  }
+  .navbar {
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+}
