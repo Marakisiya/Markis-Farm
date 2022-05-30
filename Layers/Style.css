@@ -10,7 +10,7 @@ body{
     display: grid;
     grid-template-columns: 1fr repeat(4, minmax(0,400px)) 1fr;
     grid-gap:0px;
-    grid-template-rows: 200px 1032px 1100px 250px 100px;
+    grid-template-rows: 200px 1500px 1100px 250px 100px;
 
     grid-template-areas: 
     "Header Header Header Header Header Header"
@@ -100,10 +100,10 @@ body{
 
 
 .Main_Image{
-    background-image: url('Images/Layers1.png');
+    background-image: url('Images/Main4.jpg');
     grid-area:Image1;
     background-size: cover;
-    margin-top:0px;
+    margin-top:5px;
     
 }
 
