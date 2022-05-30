@@ -10,7 +10,7 @@ body{
     display: grid;
     grid-template-columns: 1fr repeat(4, minmax(0,400px)) 1fr;
     grid-gap:0px;
-    grid-template-rows: 200px 1076px 600px 300px 700px 600px 250px 100px;
+    grid-template-rows: 200px 1500px 600px 300px 700px 600px 250px 100px;
 
     grid-template-areas: 
     "Header Header Header Header Header Header"
@@ -107,9 +107,10 @@ body{
 
 
 .Main_Image{
-    background-image: url('Images/pexels-moon-bhuyan-2122825.png');
+    background-image: url('Images/Main1.jpg');
     grid-area:Image1;
     background-size: cover;
+    Margin-top: 5px;
     
 }
 
