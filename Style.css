@@ -181,7 +181,6 @@ body{
     border-radius:0em;
     padding:15px 30px;
     margin:0 8px;
-    text-transform: uppercase;
     font-weight:bold;
     color:white;
     background-color:#f8883d;
@@ -211,7 +210,6 @@ body{
     border-radius:0em;
     padding:15px 30px;
     margin:0 8px;
-    text-transform: uppercase;
     font-weight:bold;
     color:white;
     background-color:#f8883d;
@@ -242,7 +240,6 @@ body{
     border-radius:0em;
     padding:15px 30px;
     margin:0 8px;
-    text-transform: uppercase;
     font-weight:bold;
     color:white;
     background-color:#f8883d;
@@ -350,7 +347,7 @@ body{
 
 .Main_Footer1  a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     font-family:sans-serif;
     color:white;
 }
