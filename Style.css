@@ -8,9 +8,9 @@ body{
 #site_wrapper {
     height:100vh;
     display: grid;
-    grid-template-columns: 10px repeat(4, minmax(0,400px)) 10px;
+    grid-template-columns: 100px repeat(4, minmax(0,400px)) 100px;
     grid-gap:0px;
-    grid-template-rows: 200px 1076px 200px 516px 200px 650px 516px 300px 250px 100px;
+    grid-template-rows: 200px 1000px 200px 516px 200px 650px 516px 300px 250px 100px;
 
     grid-template-areas: 
     "Header Header Header Header Header Header"
