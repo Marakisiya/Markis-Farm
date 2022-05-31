@@ -30,7 +30,7 @@ body{
 
 
 .navbar {
-    grid-area:Header;
+    grid-area:header;
     background-color:#3a4550;
     overflow: hidden;
   }
