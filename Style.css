@@ -28,6 +28,7 @@ body{
 }
 
 
+
 .navbar {
     grid-area:Header;
     background-color:#3a4550;
@@ -41,12 +42,15 @@ body{
   }
   .navbar a {
     float: right;
-    padding: 100px;
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family:sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 25px;
+    margin-right: 25px;
   }
 
   .dropdown {
@@ -57,14 +61,15 @@ body{
   .dropdown .dropbtn {
     border: none;
     outline: none;
-    font-size: 25px;  
+    font-size: 20px;  
     color: white;
-    padding: 100px;
+    padding: 100px 25px;
     background-color: #3a4550;
     font-family: sans-serif;
     font-weight: bold;
     text-decoration: none;
     margin: 0px;
+    margin-right: 25px;
   }
   
   .navbar a:hover, .navbar .active, .dropdown:hover .dropbtn, .dropbtn:focus{
@@ -84,11 +89,11 @@ body{
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 12px 25px;
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family:sans-serif;
   }
