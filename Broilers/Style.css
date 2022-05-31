@@ -235,25 +235,4 @@ body{
 
 
 
-@media screen and (max-width:300px) {
-  #site_wrapper{
 
-    grid-template-rows: 500px 1076px 600px 300px 700px 600px 500px 100px;
-
-    grid-template-areas: 
-    "Header Header Header Header Header Header"
-     "Image1 Image1 Image1 Image1 Image1 Image1"
-     ". Content1 Content1 Content2 Content2 ."
-     ". Content11 Content11 Content22 Content22 ."
-     ". Content3 Content3 Content3 Content3 ."
-     ". Content4 Content4 Content4 Content4 ."
-     "Footer1 Footer1 Footer2 Footer3 Footer4 Footer4"
-     "Footer Footer Footer Footer Footer Footer"
-     ;
-  }
-  .navbar {
-    overflow: hidden;
-    flex-direction: column;
-  }
-
-}
