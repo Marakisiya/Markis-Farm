@@ -8,16 +8,16 @@ body{
 #site_wrapper {
     height:100vh;
     display: grid;
-    grid-template-columns: 1fr repeat(4, minmax(0,400px)) 1fr;
+    grid-template-columns: 10px repeat(6, minmax(0,272px)) 10px;
     grid-gap:0px;
-    grid-template-rows: 200px 1500px 1100px 250px 100px;
+    grid-template-rows: 200px 1000px 800px 250px 100px;
 
     grid-template-areas: 
-    "Header Header Header Header Header Header"
-     "Image1 Image1 Image1 Image1 Image1 Image1"
-     ". Content1 Content1 Content1 Content1 ."
-     "Footer1 Footer1 Footer2 Footer3 Footer4 Footer4"
-     "Footer Footer Footer Footer Footer Footer"
+    "Header Header Header Header Header Header  Header Header"
+     "Image1 Image1 Image1 Image1 Image1 Image1 Image1 Image1"
+     ". . Content1 Content1 Content1 Content1 . ."
+     "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3 Footer4 Footer4"
+     "Footer Footer Footer Footer Footer Footer Footer Footer"
      ;
 
 }
@@ -166,7 +166,7 @@ body{
 
 .Main_Footer1  a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family:sans-serif;
     color:white;
 }
@@ -182,7 +182,7 @@ body{
 }
 .Main_Footer2  a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family:sans-serif;
     color:white;
 }
@@ -200,7 +200,7 @@ body{
 }
 .Main_Footer3  a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family:sans-serif;
     color:white;
 }
@@ -217,7 +217,7 @@ body{
 }
 .Main_Footer4  a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family:sans-serif;
     color:white;
 }
