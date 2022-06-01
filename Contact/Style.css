@@ -122,13 +122,14 @@ text-decoration: none;
     grid-area:Content1;
     margin-top: 2em;
     color: black;
+    background-color: #3a4550;;
 }
 
 
 .Content2{
     grid-area:Content2;
     margin-top: 2em;
-    background-color: rgba(248, 136, 61, 0.05);
+    background-color: #3a4550;;
  }
   
 p{
