@@ -122,14 +122,12 @@ text-decoration: none;
     grid-area:Content1;
     margin-top: 2em;
     color: black;
-    max-width: 800px;
 }
 
 
 .Content2{
     grid-area:Content2;
     margin-top: 2em;
-    max-width: 800px;
     background-color: rgba(248, 136, 61, 0.05);
  }
   
