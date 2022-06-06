@@ -433,7 +433,6 @@ display: table;
 }
 
 .paybtn{
-
   text-decoration: none;
   border:2px solid #f8883d;
   border-radius:0em;
@@ -448,9 +447,10 @@ display: table;
   font-size: 20px;
   font-family:sans-serif;
   margin-top: 20px;
-
 }
+
 .paybtn:hover{
   border:2px solid #f8883d;
   color:#f8883d;
   background-color:rgba(248, 136, 61, 0.025);
+}
